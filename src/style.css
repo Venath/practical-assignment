@@ -41,7 +41,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
   }
   .add-button:hover {
     background-color: #525252;
@@ -56,8 +55,6 @@ body{
     background-color: #FFA500;
     width: 100px;
     border-radius: 10px;
-    margin-bottom: 5px;
-   
   }
   
   
@@ -65,7 +62,6 @@ body{
     background-color: #f44336; 
     width: 100px;
     border-radius: 10px;
-    
 }
 .edit-button:hover,
 .delete-button:hover {
@@ -88,13 +84,12 @@ body{
   
 
   .form-group {
-    margin-bottom: 150px;
+    margin-bottom: 15px;
   }
   
   .form-group label {
     display: block;
-    margin-bottom: 50px;
-    font-size: 16px;
+    margin-bottom: 5px;
   }
   
   .form-input, .form-checkbox {
@@ -143,7 +138,6 @@ body{
   .modal-content h2{
     text-align: center;
   }
-
   .dep{
     font-size: 18px;
   }

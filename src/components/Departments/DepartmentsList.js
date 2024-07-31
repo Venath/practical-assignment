@@ -7,7 +7,7 @@ const DepartmentList = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
+  useEffect(() => {   
     const fetchDepartments = async () => {
       try {
         const response = await axios.get('/api/v1.0/Departments', {
